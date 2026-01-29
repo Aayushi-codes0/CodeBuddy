@@ -1,0 +1,28 @@
+.review-panel {
+  background: rgba(146, 170, 231, 0.8);
+  border: 1px solid rgba(42, 61, 165, 0.25);
+  border-radius: 16px;
+  padding: 20px;
+  min-height: 320px;
+  color: #dbe4ff;
+  font-family: "JetBrains Mono", monospace;
+  overflow-y: auto;
+  box-shadow: 0 0 30px rgba(90, 120, 255, 0.15);
+}
+
+.review-panel pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.6;
+}
+
+.loading {
+  color: #7aa2ff;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}

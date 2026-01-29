@@ -1,0 +1,29 @@
+.editor-wrapper {
+  height: 100%;
+}
+
+.editor-wrapper textarea {
+  width: 100%;
+  height: 100%;
+
+  background: #0b1020 !important;
+  color: #ffffff !important;     
+
+  border-radius: 12px;
+  border: 1px solid #1e254a;
+
+  padding: 16px;
+  resize: none;
+  outline: none;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+
+  overflow-y: auto;
+}
+
+
+.editor-wrapper textarea::placeholder {
+  color: #94a3b8 !important;
+}
